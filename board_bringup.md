@@ -1,4 +1,4 @@
-<!-- cspell:ignore nixos minimise -->
+<!-- cspell:ignore nixos minimise defconfig UART uboot -->
 # What's Covered
 
 This branch covers the process of bringing up the RPI Zero 2 W using a custom Linux Kernel and U-boot.

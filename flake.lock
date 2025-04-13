@@ -37,7 +37,24 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "rpiFirmware": "rpiFirmware"
+      }
+    },
+    "rpiFirmware": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1744030519,
+        "narHash": "sha256-lezpa7LylYjFdWB1ElhEvTnjYjldUEJLxwKFcKqDcPA=",
+        "owner": "raspberrypi",
+        "repo": "firmware",
+        "rev": "8b28eeb41d00562f98292f58e25d79bcfb813424",
+        "type": "github"
+      },
+      "original": {
+        "owner": "raspberrypi",
+        "repo": "firmware",
+        "type": "github"
       }
     },
     "systems": {

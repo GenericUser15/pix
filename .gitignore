@@ -1,0 +1,4 @@
+# cspell:ignore direnv
+.direnv/**
+result
+*.img
