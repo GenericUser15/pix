@@ -23,4 +23,4 @@ It's fairly easy to add new boards, hopefully the board bring up is enough for y
 
 This project uses direnv and a Nix flake to manage the environment. You need to have these installed to make this work.
 
-You can run the script `setup_env.sh` but it's recommended you install Nix and direnv yourself so you can debug it if the install fails.
+You can run the script `setup_env.sh` but it's recommended you install Nix and direnv yourself so you can debug it if the install fails. The script assumes you are using a BASH shell.
