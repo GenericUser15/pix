@@ -15,12 +15,6 @@ let
       CONFIG_DISTRO_DEFAULTS=y
       CONFIG_BOOTCOMMAND="sysboot mmc 0:2 any $pxefile_addr_r /boot/extlinux/extlinux.conf"
     '';
-
-    # Enable compressed kernel unpacking.
-    postInstall = ''
-      echo "kernel_comp_addr_r=0x0800000" >> ./board/raspberrypi/rpi/rpi.env
-      echo "kernel_comp_size=0x0800000" >> ./board/raspberrypi/rpi/rpi.env
-    '';
   };
 
   bootConfigFile = pkgs.stdenv.mkDerivation {
